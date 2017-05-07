@@ -46,11 +46,11 @@ The following files are available for the train and test data. Their description
 
 
 # The file 'run_analysis.r' implement these steps:
-- Checks if the file exists, otherwise it downloads;
-- Checks if the file has already been extracted to the directory;
-- Load both test and train data;
+- Checks if the file exists and, if not, it downloads;
+- Checks if the file has been extracted to the directory;
+- Load test and train data;
 - Load the features and activity labels;
 - Extract the mean and standard deviation column names and data;
 - Process the data;
-- Merge and creates data set: 
-- The result is saved as a txt file - the first column contains subject IDs, the second column contains activity names (see below), and then the averages for each of the 66 attributes are in columns 3...68. There are 30 subjects and 6 activities, thus 180 rows in this data set with averages.
+- Merge and create the data set; 
+- The result is saved as a txt file - the first column contains subject IDs, the second column contains activity names, and then the averages for each of the 66 attributes are in columns 3...68. There are 30 subjects and 6 activities.
